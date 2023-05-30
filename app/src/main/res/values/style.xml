@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ShapeImageView">
+        <item name="cornerSize">12dp</item>
+    </style>
+
+
+    <style name="ShapeAppearanceOverlay.MaterialCardView.InnerBottom" parent="">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSizeTopRight">@dimen/margin_std</item>
+        <item name="cornerSizeTopLeft">@dimen/margin_std</item>
+        <item name="cornerSizeBottomRight">@dimen/margin_std</item>
+        <item name="cornerSizeBottomLeft">@dimen/margin_std</item>
+    </style>
+
+
+    <style name="AppBottomSheetDialogTheme"
+        parent="Theme.Design.Light.BottomSheetDialog">
+        <item name="bottomSheetStyle">@style/AppModalStyle</item>
+    </style>
+
+    <style name="AppModalStyle"
+        parent="Widget.Design.BottomSheet.Modal">
+        <item name="android:background">@drawable/bg_language</item>
+    </style>
+
+    <style name="FabShapeStyle" parent="ShapeAppearance.MaterialComponents.SmallComponent">
+        <item name="cornerSize">@dimen/margin_std</item>
+        <item name="backgroundColor">#fff</item>
+    </style>
+
+</resources>
